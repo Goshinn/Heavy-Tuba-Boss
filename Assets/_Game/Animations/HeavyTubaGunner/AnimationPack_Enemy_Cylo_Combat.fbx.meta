@@ -1,0 +1,2723 @@
+fileFormatVersion: 2
+guid: adc7c75c90b2b2848b7ac4bce2b0f034
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1553881694301708187
+    second: Animation_Enemy_Cylo_Combat_Attack_Slash
+  - first:
+      74: 4242816491558201081
+    second: Animation_Enemy_Cylo_Combat_Attack_Lunge
+  - first:
+      74: -2172331869774210268
+    second: Animation_Enemy_Cylo_Combat_Guard_Start
+  - first:
+      74: -978439391620746564
+    second: Animation_Enemy_Cylo_Combat_Guard_Hit1
+  - first:
+      74: -8255239128545447578
+    second: Animation_Enemy_Cylo_Combat_Guard_Hit2
+  - first:
+      74: -840345684934858413
+    second: Animation_Enemy_Cylo_Combat_Guard_Hit3
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Animation_Enemy_Cylo_Combat_Attack_Slash' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'midSpine1' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'midSpine2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'neck_end'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'head'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'L_clavicle'
+      has translation animation that will be discarded.\n\t'R_clavicle' has translation
+      animation that will be discarded.\n\nClip 'Animation_Enemy_Cylo_Combat_Attack_Lunge'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'midSpine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'midSpine2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'neck_end'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'head'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'lowerJaw'
+      has translation animation that will be discarded.\n\t'L_clavicle' has translation
+      animation that will be discarded.\n\t'R_clavicle' has translation animation
+      that will be discarded.\n\nClip 'Animation_Enemy_Cylo_Combat_Guard_Start' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'midSpine1' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'midSpine2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'neck_end'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'head'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'L_clavicle'
+      has translation animation that will be discarded.\n\t'R_clavicle' has translation
+      animation that will be discarded.\n\nClip 'Animation_Enemy_Cylo_Combat_Guard_Hit1'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'neck_end'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'head'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'L_clavicle'
+      has translation animation that will be discarded.\n\t'R_clavicle' has translation
+      animation that will be discarded.\n\nClip 'Animation_Enemy_Cylo_Combat_Guard_Hit2'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'midSpine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'midSpine2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'neck_end'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'head'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'L_clavicle'
+      has translation animation that will be discarded.\n\t'R_clavicle' has translation
+      animation that will be discarded.\n\nClip 'Animation_Enemy_Cylo_Combat_Guard_Hit3'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'midSpine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'midSpine2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'neck_end'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'head'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'lowerJaw'
+      has translation animation that will be discarded.\n\t'L_clavicle' has translation
+      animation that will be discarded.\n\t'R_clavicle' has translation animation
+      that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Animation_Enemy_Cylo_Combat_Attack_Slash
+      takeName: Animation_Enemy_Cylo_Combat_Attack_Slash
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylo_Mesh
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Body
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Eyes
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Tongue
+        weight: 0
+      - path: Cylo_Skeleton
+        weight: 1
+      - path: Cylo_Skeleton/root
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid/L_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid/L_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid/L_pinkyToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end/L_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end/L_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end/L_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end/L_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start/L_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start/L_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/chin_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start/L_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start/R_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start/R_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start/R_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end/tongue_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start/L_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start/R_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/snout_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end/R_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end/R_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end/R_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end/R_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid/R_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid/R_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid/R_pinkyToe_end
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: c6c6a350f2794974699aa3f747619046, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Animation_Enemy_Cylo_Combat_Attack_Lunge
+      takeName: Animation_Enemy_Cylo_Combat_Attack_Lunge
+      internalID: 0
+      firstFrame: 61
+      lastFrame: 161
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylo_Mesh
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Body
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Eyes
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Tongue
+        weight: 0
+      - path: Cylo_Skeleton
+        weight: 1
+      - path: Cylo_Skeleton/root
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid/L_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid/L_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid/L_pinkyToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end/L_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end/L_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end/L_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end/L_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start/L_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start/L_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/chin_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start/L_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start/R_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start/R_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start/R_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end/tongue_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start/L_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start/R_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/snout_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end/R_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end/R_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end/R_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end/R_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid/R_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid/R_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid/R_pinkyToe_end
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: c6c6a350f2794974699aa3f747619046, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Animation_Enemy_Cylo_Combat_Guard_Start
+      takeName: Animation_Enemy_Cylo_Combat_Guard_Start
+      internalID: 0
+      firstFrame: 162
+      lastFrame: 182
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylo_Mesh
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Body
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Eyes
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Tongue
+        weight: 0
+      - path: Cylo_Skeleton
+        weight: 1
+      - path: Cylo_Skeleton/root
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid/L_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid/L_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid/L_pinkyToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end/L_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end/L_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end/L_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end/L_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start/L_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start/L_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/chin_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start/L_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start/R_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start/R_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start/R_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end/tongue_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start/L_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start/R_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/snout_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end/R_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end/R_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end/R_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end/R_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid/R_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid/R_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid/R_pinkyToe_end
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: c6c6a350f2794974699aa3f747619046, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Animation_Enemy_Cylo_Combat_Guard_Hit1
+      takeName: Animation_Enemy_Cylo_Combat_Guard_Hit1
+      internalID: 0
+      firstFrame: 183
+      lastFrame: 203
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylo_Mesh
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Body
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Eyes
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Tongue
+        weight: 0
+      - path: Cylo_Skeleton
+        weight: 1
+      - path: Cylo_Skeleton/root
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid/L_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid/L_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid/L_pinkyToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end/L_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end/L_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end/L_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end/L_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start/L_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start/L_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/chin_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start/L_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start/R_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start/R_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start/R_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end/tongue_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start/L_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start/R_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/snout_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end/R_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end/R_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end/R_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end/R_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid/R_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid/R_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid/R_pinkyToe_end
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: c6c6a350f2794974699aa3f747619046, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Animation_Enemy_Cylo_Combat_Guard_Hit2
+      takeName: Animation_Enemy_Cylo_Combat_Guard_Hit2
+      internalID: 0
+      firstFrame: 205
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylo_Mesh
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Body
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Eyes
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Tongue
+        weight: 0
+      - path: Cylo_Skeleton
+        weight: 1
+      - path: Cylo_Skeleton/root
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid/L_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid/L_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid/L_pinkyToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end/L_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end/L_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end/L_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end/L_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start/L_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start/L_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/chin_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start/L_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start/R_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start/R_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start/R_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end/tongue_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start/L_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start/R_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/snout_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end/R_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end/R_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end/R_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end/R_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid/R_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid/R_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid/R_pinkyToe_end
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: c6c6a350f2794974699aa3f747619046, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Animation_Enemy_Cylo_Combat_Guard_Hit3
+      takeName: Animation_Enemy_Cylo_Combat_Guard_Hit3
+      internalID: 0
+      firstFrame: 232
+      lastFrame: 282
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: FootstepLeft
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 3
+            time: 0
+            value: -1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.05263167
+            value: 0
+            inSlope: 30.33568
+            outSlope: 30.33568
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.1602224
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.10531312
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.15232918
+            value: 0
+            inSlope: -3.6037014
+            outSlope: -3.6037014
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.06471043
+          - serializedVersion: 3
+            time: 1
+            value: -1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 4
+      - name: FootstepRight
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 3
+            time: 0
+            value: -1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.08310243
+            value: 0
+            inSlope: 10.385277
+            outSlope: 10.385277
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.098803185
+          - serializedVersion: 3
+            time: 0.33240998
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.49584478
+            value: 0
+            inSlope: -5.8371277
+            outSlope: -5.8371277
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.084952556
+          - serializedVersion: 3
+            time: 1
+            value: -1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 4
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylo_Mesh
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Body
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Eyes
+        weight: 0
+      - path: Cylo_Mesh/Mesh_Cylo_Tongue
+        weight: 0
+      - path: Cylo_Skeleton
+        weight: 1
+      - path: Cylo_Skeleton/root
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_bigToe_start/L_bigToe_mid/L_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_midToe_start/L_midToe_mid/L_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/L_hip/L_knee/L_ankle/L_ballOfFoot/L_pinkyToe_start/L_pinkyToe_mid/L_pinkyToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_centerFinger_start/L_centerFinger_mid/L_centerFinger_end/L_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_indexFinger_start/L_indexFinger_mid/L_indexFinger_end/L_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_palm/L_pinkyFinger_start/L_pinkyFinger_mid/L_pinkyFinger_end/L_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/L_clavicle/L_shoulder/L_elbow/L_wrist/L_thumb_start/L_thumb_mid/L_thumb_end/L_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_lowerLid_start/L_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/L_upperLid_start/L_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/chin_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/L_lowerCheek_start/L_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/lowerJaw/chin_start/R_lowerCheek_start/R_lowerCheek_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_lowerLid_start/R_lowerLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/R_upperLid_start/R_upperLid_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/tongue_start/tongue_mid1/tongue_mid2/tongue_mid3/tongue_end/tongue_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/L_cheekbone_start/L_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/R_cheekbone_start/R_cheekbone_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/neck_start/neck_mid/neck_end/head/upperJaw/snout_start/snout_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_centerFinger_start/R_centerFinger_mid/R_centerFinger_end/R_centerFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_indexFinger_start/R_indexFinger_mid/R_indexFinger_end/R_indexFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_palm/R_pinkyFinger_start/R_pinkyFinger_mid/R_pinkyFinger_end/R_pinkyFinger_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end
+        weight: 1
+      - path: Cylo_Skeleton/root/lowerSpine/midSpine1/midSpine2/upperSpine/chest/R_clavicle/R_shoulder/R_elbow/R_wrist/R_thumb_start/R_thumb_mid/R_thumb_end/R_thumb_tip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_bigToe_start/R_bigToe_mid/R_bigToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_midToe_start/R_midToe_mid/R_midToe_end
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid
+        weight: 1
+      - path: Cylo_Skeleton/root/R_hip/R_knee/R_ankle/R_ballOfFoot/R_pinkyToe_start/R_pinkyToe_mid/R_pinkyToe_end
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: c6c6a350f2794974699aa3f747619046, type: 2}
+      additiveReferencePoseFrame: 231.9
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_hip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_hip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerSpine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperSpine
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck_mid
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_ballOfFoot
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_ballOfFoot
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_thumb_start
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_thumb_mid
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_thumb_end
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_indexFinger_start
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_indexFinger_mid
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_indexFinger_end
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_centerFinger_start
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_centerFinger_mid
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_pinkyFinger_start
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_pinkyFinger_mid
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_pinkyFinger_end
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_thumb_start
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_thumb_mid
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_thumb_end
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_indexFinger_start
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_indexFinger_mid
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_indexFinger_end
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_centerFinger_start
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_centerFinger_mid
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_pinkyFinger_start
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_pinkyFinger_mid
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_pinkyFinger_end
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_centerFinger_end
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_centerFinger_end
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck_start
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerJaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Model_Enemy_Cylo(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylo_Mesh
+      parentName: Model_Enemy_Cylo(Clone)
+      position: {x: -0, y: 0, z: -0.0034210843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Cylo_Body
+      parentName: Cylo_Mesh
+      position: {x: -0, y: 0, z: 0.0034210843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Cylo_Eyes
+      parentName: Cylo_Mesh
+      position: {x: -0, y: 0, z: 0.0034210843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Cylo_Tongue
+      parentName: Cylo_Mesh
+      position: {x: -0, y: 0, z: 0.0034210843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylo_Skeleton
+      parentName: Model_Enemy_Cylo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: Cylo_Skeleton
+      position: {x: 0, y: 1.1018187, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lowerSpine
+      parentName: root
+      position: {x: -0.03860647, y: 3.6630564e-18, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: midSpine1
+      parentName: lowerSpine
+      position: {x: -0.13091673, y: 2.9069353e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: midSpine2
+      parentName: midSpine1
+      position: {x: -0.061840646, y: 2.7557818e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upperSpine
+      parentName: midSpine2
+      position: {x: -0.074188925, y: 4.386755e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chest
+      parentName: upperSpine
+      position: {x: -0.21102642, y: 1.0545845e-17, z: -3.5527136e-17}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_start
+      parentName: chest
+      position: {x: 1.0261355e-31, y: 0.261246, z: -0.057554204}
+      rotation: {x: 0.54256177, y: -0.45346084, z: -0.54256177, w: 0.45346084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_mid
+      parentName: neck_start
+      position: {x: -0.12597623, y: -1.4210854e-16, z: -0}
+      rotation: {x: 0, y: 0, z: -0.33585015, w: 0.94191545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_end
+      parentName: neck_mid
+      position: {x: -0.09565695, y: -2.842171e-16, z: -0}
+      rotation: {x: 0, y: 0, z: -0.4453892, w: 0.8953371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: neck_end
+      position: {x: -0.1762402, y: -0.021958454, z: 0}
+      rotation: {x: -6.123234e-17, y: 6.123234e-17, z: -6.123234e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_lowerLid_start
+      parentName: head
+      position: {x: -0.16597047, y: -0.0019819287, z: 0.07359723}
+      rotation: {x: -0.04395897, y: 0.32567328, z: -0.08676417, w: 0.9404661}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_lowerLid_tip
+      parentName: L_lowerLid_start
+      position: {x: -0.021210322, y: -5.684342e-16, z: 7.105427e-17}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_upperLid_start
+      parentName: head
+      position: {x: -0.16661797, y: -0.03344142, z: 0.07630268}
+      rotation: {x: -0.039551165, y: 0.22050552, z: -0.01947117, w: 0.97438896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_upperLid_tip
+      parentName: L_upperLid_start
+      position: {x: -0.021210322, y: -5.684342e-16, z: 3.7747583e-17}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_upperLid_start
+      parentName: head
+      position: {x: -0.16661777, y: -0.033443924, z: -0.0763027}
+      rotation: {x: -0.039551165, y: 0.22050552, z: -0.01947117, w: 0.97438896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_upperLid_tip
+      parentName: R_upperLid_start
+      position: {x: -0.013434322, y: 0.0015602269, z: -0.016340457}
+      rotation: {x: 1.0990648e-15, y: 0.7071068, z: -1.0990648e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_lowerLid_start
+      parentName: head
+      position: {x: -0.16596933, y: -0.0019848372, z: -0.0735972}
+      rotation: {x: -0.04395897, y: 0.32567328, z: -0.08676417, w: 0.9404661}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_lowerLid_tip
+      parentName: R_lowerLid_start
+      position: {x: -0.005688123, y: 0.0035761818, z: -0.0201199}
+      rotation: {x: -1.3934572e-15, y: 0.7071068, z: 1.3934572e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lowerJaw
+      parentName: head
+      position: {x: -0.1458531, y: 0.14087471, z: -4.354638e-17}
+      rotation: {x: 4.1633367e-17, y: -3.8857809e-16, z: -0.09417808, w: 0.9955554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chin_start
+      parentName: lowerJaw
+      position: {x: -0.06738266, y: -1.9895197e-15, z: -3.84054e-17}
+      rotation: {x: -0, y: -3.8857806e-16, z: 2.7755576e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chin_tip
+      parentName: chin_start
+      position: {x: -0.04298491, y: 0, z: -0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_lowerCheek_start
+      parentName: chin_start
+      position: {x: 0.031747185, y: -0.011522782, z: 0.079314165}
+      rotation: {x: -0.17100413, y: -0.2301456, z: 0.95791763, w: -0.0135820415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_lowerCheek_tip
+      parentName: L_lowerCheek_start
+      position: {x: -0.0714726, y: 5.684342e-16, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_lowerCheek_start
+      parentName: chin_start
+      position: {x: 0.0317453, y: -0.011519606, z: -0.079314195}
+      rotation: {x: -0.17100413, y: -0.2301456, z: 0.95791763, w: -0.0135820415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_lowerCheek_tip
+      parentName: R_lowerCheek_start
+      position: {x: -0.05554082, y: 0.020825129, z: -0.039877113}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upperJaw
+      parentName: head
+      position: {x: -0.1653467, y: 0.04973243, z: -8.934024e-17}
+      rotation: {x: -0.054399256, y: 0.00053923926, z: -0.023940293, w: 0.9982321}
+      scale: {x: 1, y: 1, z: 1}
+    - name: snout_start
+      parentName: upperJaw
+      position: {x: -0.052052107, y: 2.842171e-16, z: 0}
+      rotation: {x: 2.359224e-16, y: -3.330669e-16, z: 2.359224e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: snout_tip
+      parentName: snout_start
+      position: {x: -0.021210322, y: 5.684342e-16, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_cheekbone_start
+      parentName: snout_start
+      position: {x: 0.018709386, y: -0.002744167, z: 0.054269213}
+      rotation: {x: -0.36088026, y: -0.09752407, z: 0.9217359, w: -0.10323546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_cheekbone_tip
+      parentName: L_cheekbone_start
+      position: {x: -0.1069973, y: 8.5265126e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_cheekbone_start
+      parentName: snout_start
+      position: {x: 0.018542148, y: 0.009052022, z: -0.05363714}
+      rotation: {x: -0.36088026, y: -0.09752407, z: 0.9217359, w: -0.10323546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_cheekbone_tip
+      parentName: R_cheekbone_start
+      position: {x: -0.011101017, y: 0, z: -0.10642062}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue_start
+      parentName: head
+      position: {x: -0.09090596, y: 0.12540075, z: -1.3479641e-17}
+      rotation: {x: 4.3188334e-17, y: -3.567021e-16, z: 0.122754455, w: 0.99243706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue_mid1
+      parentName: tongue_start
+      position: {x: -0.07293268, y: -2.842171e-16, z: 0}
+      rotation: {x: -7.432203e-17, y: -3.1907403e-16, z: -0.12033806, w: 0.992733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue_mid2
+      parentName: tongue_mid1
+      position: {x: -0.04788062, y: 0, z: 0}
+      rotation: {x: -5.1708268e-17, y: -2.9746958e-16, z: -0.063686535, w: 0.99797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue_mid3
+      parentName: tongue_mid2
+      position: {x: -0.05543794, y: 5.684342e-16, z: -0}
+      rotation: {x: 9.174479e-17, y: -3.5393764e-16, z: 0.21912548, w: 0.97569674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue_end
+      parentName: tongue_mid3
+      position: {x: -0.025478555, y: -5.684342e-16, z: 0}
+      rotation: {x: -0.0567634, y: 0.70482475, z: 0.0567634, w: 0.70482475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue_tip
+      parentName: tongue_end
+      position: {x: -0, y: -2.842171e-16, z: -0.012340211}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_clavicle
+      parentName: chest
+      position: {x: -0.19214883, y: 0.14171606, z: -0.06907358}
+      rotation: {x: 0.014567938, y: -0.15660338, z: 0.041588653, w: 0.986678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_shoulder
+      parentName: L_clavicle
+      position: {x: -0.23197986, y: 2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0.093975194, y: 0.15625498, z: -0.015321086, w: 0.9831167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_elbow
+      parentName: L_shoulder
+      position: {x: -0.38917664, y: 5.684342e-16, z: 3.7303492e-16}
+      rotation: {x: -0.0042219004, y: 0.03148646, z: -0.011968412, w: 0.9994236}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_wrist
+      parentName: L_elbow
+      position: {x: -0.41165218, y: -7.105427e-16, z: -7.105427e-16}
+      rotation: {x: 0.0063560195, y: 0.028592248, z: 0.05156737, w: 0.99823993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_palm
+      parentName: L_wrist
+      position: {x: -0.13514538, y: 1.4210854e-16, z: -1.4210854e-16}
+      rotation: {x: -0.1493905, y: -0.044895627, z: 0.0067902617, w: 0.98773515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_centerFinger_start
+      parentName: L_palm
+      position: {x: -0.0992538, y: -0.009155915, z: -0.0027522002}
+      rotation: {x: -0.032064084, y: -0.014069828, z: 0.089931525, w: 0.9953323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_centerFinger_mid
+      parentName: L_centerFinger_start
+      position: {x: -0.08642469, y: 3.5527135e-16, z: 5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_centerFinger_end
+      parentName: L_centerFinger_mid
+      position: {x: -0.071426265, y: -1.7763567e-16, z: 4.2632563e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_centerFinger_tip
+      parentName: L_centerFinger_end
+      position: {x: -0.068728365, y: -3.5527135e-16, z: -2.1316282e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_indexFinger_start
+      parentName: L_palm
+      position: {x: -0.118317075, y: 0.021416845, z: 0.08485788}
+      rotation: {x: -0.0030156504, y: 0.028004095, z: -0.03341314, w: 0.99904466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_indexFinger_mid
+      parentName: L_indexFinger_start
+      position: {x: -0.09886088, y: -0.026550695, z: -1.563194e-15}
+      rotation: {x: 0.00000012363303, y: -0.00000021979204, z: 0.16328746, w: 0.9865785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_indexFinger_end
+      parentName: L_indexFinger_mid
+      position: {x: -0.060720466, y: -4.241052e-16, z: 1.4210854e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_indexFinger_tip
+      parentName: L_indexFinger_end
+      position: {x: -0.07500573, y: 1.7763567e-16, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_pinkyFinger_start
+      parentName: L_palm
+      position: {x: -0.07473394, y: -0.058538437, z: -0.08437042}
+      rotation: {x: -0.20271876, y: -0.041415073, z: 0.0721119, w: 0.97569966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_pinkyFinger_mid
+      parentName: L_pinkyFinger_start
+      position: {x: -0.07444031, y: 4.485301e-16, z: 4.973799e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_pinkyFinger_end
+      parentName: L_pinkyFinger_mid
+      position: {x: -0.05373299, y: -3.2862602e-16, z: -4.973799e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_pinkyFinger_tip
+      parentName: L_pinkyFinger_end
+      position: {x: -0.074640915, y: -2.176037e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_thumb_start
+      parentName: L_wrist
+      position: {x: -0.15590516, y: 4.2632563e-16, z: 0.1013682}
+      rotation: {x: -0.43790123, y: 0.29057437, z: 0.31943557, w: 0.7885239}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_thumb_mid
+      parentName: L_thumb_start
+      position: {x: -0.086505875, y: -6.3948843e-16, z: -2.842171e-16}
+      rotation: {x: 0.15591422, y: -0.017020535, z: -0.012891558, w: 0.9875398}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_thumb_end
+      parentName: L_thumb_mid
+      position: {x: -0.061835714, y: 8.792966e-16, z: 8.5265126e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_thumb_tip
+      parentName: L_thumb_end
+      position: {x: -0.07921793, y: 2.3980816e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_clavicle
+      parentName: chest
+      position: {x: 0.19214883, y: 0.14171606, z: -0.06907358}
+      rotation: {x: 0.014032985, y: -0.30015174, z: 0.07970998, w: 0.9504516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_shoulder
+      parentName: R_clavicle
+      position: {x: 0.13360414, y: -0.051375836, z: -0.1825509}
+      rotation: {x: 0.20091078, y: -0.24292167, z: 0.81727517, w: 0.48237455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_elbow
+      parentName: R_shoulder
+      position: {x: -0.31634527, y: -0.20061915, z: -0.105536714}
+      rotation: {x: 0.22834355, y: 0.19403328, z: -0.15062189, w: 0.94208455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_wrist
+      parentName: R_elbow
+      position: {x: -0.19218208, y: -0.35816342, z: -0.06512773}
+      rotation: {x: -0.005843014, y: -0.030082779, z: 0.3759657, w: 0.9261267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_palm
+      parentName: R_wrist
+      position: {x: -0.13183202, y: -0.029384164, z: -0.00458471}
+      rotation: {x: -0.14939052, y: -0.04489562, z: 0.0067902626, w: 0.98773515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_centerFinger_start
+      parentName: R_palm
+      position: {x: -0.09959152, y: -0.004891928, z: -0.00062668166}
+      rotation: {x: -0.02581372, y: -0.12215148, z: 0.28825566, w: 0.94937944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_centerFinger_mid
+      parentName: R_centerFinger_start
+      position: {x: -0.06802914, y: 0.0459894, z: 0.026950458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_centerFinger_end
+      parentName: R_centerFinger_mid
+      position: {x: -0.056222994, y: 0.038007136, z: 0.022273207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_centerFinger_tip
+      parentName: R_centerFinger_end
+      position: {x: -0.054099757, y: 0.03657196, z: 0.02143172}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_indexFinger_start
+      parentName: R_palm
+      position: {x: -0.10910192, y: -0.09506462, z: 0.02679612}
+      rotation: {x: 0.015912471, y: -0.066340595, z: 0.12762092, w: 0.98947394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_indexFinger_mid
+      parentName: R_indexFinger_start
+      position: {x: -0.09674679, y: 0.02371148, z: 0.023583762}
+      rotation: {x: -0.051898148, y: -0.1276151, z: 0.4399195, w: 0.8874073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_indexFinger_end
+      parentName: R_indexFinger_mid
+      position: {x: -0.01639711, y: 0.049481027, z: 0.031142142}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_indexFinger_tip
+      parentName: R_indexFinger_end
+      position: {x: -0.020254854, y: 0.06112057, z: 0.038468026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_pinkyFinger_start
+      parentName: R_palm
+      position: {x: -0.08667487, y: 0.09238114, z: -0.009142115}
+      rotation: {x: -0.16888936, y: -0.22904883, z: 0.30890277, w: 0.90751976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_pinkyFinger_mid
+      parentName: R_pinkyFinger_start
+      position: {x: -0.05116867, y: 0.03545895, z: 0.040814146}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_pinkyFinger_end
+      parentName: R_pinkyFinger_mid
+      position: {x: -0.036934573, y: 0.025594668, z: 0.029460903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_pinkyFinger_tip
+      parentName: R_pinkyFinger_end
+      position: {x: -0.05130674, y: 0.035554066, z: 0.04092416}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_thumb_start
+      parentName: R_wrist
+      position: {x: -0.14864431, y: -0.06439983, z: 0.09132021}
+      rotation: {x: -0.3980006, y: 0.21732756, z: 0.4117511, w: 0.7904589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_thumb_mid
+      parentName: R_thumb_start
+      position: {x: -0.08061938, y: 0.012409694, z: 0.028805679}
+      rotation: {x: 0.38337862, y: -0.21408562, z: 0.05855488, w: 0.8965264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_thumb_end
+      parentName: R_thumb_mid
+      position: {x: -0.043536115, y: 0.036932662, z: 0.02375261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_thumb_tip
+      parentName: R_thumb_end
+      position: {x: -0.055775803, y: 0.047314685, z: 0.030429885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_hip
+      parentName: root
+      position: {x: 0.043578677, y: -0.18331, z: 0.015671488}
+      rotation: {x: -0.12083383, y: -0.17663777, z: 0.97538686, w: 0.05309214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_knee
+      parentName: L_hip
+      position: {x: -0.46820724, y: 7.105427e-17, z: -7.105427e-17}
+      rotation: {x: 0.007621275, y: -0.33814278, z: -0.012277786, w: 0.94098383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ankle
+      parentName: L_knee
+      position: {x: -0.4800459, y: -0.0013739672, z: 0.002017295}
+      rotation: {x: -0.032610547, y: 0.5940098, z: -0.0033652708, w: 0.80378956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ballOfFoot
+      parentName: L_ankle
+      position: {x: -0.14637682, y: -0.023685526, z: -0.0559586}
+      rotation: {x: 0.6662021, y: 0.37085772, z: -0.13250153, w: 0.633311}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_midToe_start
+      parentName: L_ballOfFoot
+      position: {x: -0.06059375, y: -8.881784e-18, z: 0}
+      rotation: {x: -0.0000000761606, y: -0.000004041233, z: -0.00015692947, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_midToe_mid
+      parentName: L_midToe_start
+      position: {x: -0.1499271, y: 0.03903966, z: 0}
+      rotation: {x: 4.527347e-20, y: 1.741159e-19, z: 0.00034821065, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_midToe_end
+      parentName: L_midToe_mid
+      position: {x: -0.122956425, y: -0.03903966, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_pinkyToe_start
+      parentName: L_ballOfFoot
+      position: {x: -0.06059375, y: -1.7763568e-17, z: -0.08404357}
+      rotation: {x: 0.000018242677, y: -0.12408775, z: -0.00014784734, w: 0.99227124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_pinkyToe_mid
+      parentName: L_pinkyToe_start
+      position: {x: -0.1499271, y: 0.03903966, z: -3.5527136e-17}
+      rotation: {x: -4.307821e-20, y: 1.3552063e-19, z: 0.00033053916, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_pinkyToe_end
+      parentName: L_pinkyToe_mid
+      position: {x: -0.122956425, y: -0.03903966, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_bigToe_start
+      parentName: L_ballOfFoot
+      position: {x: -0.06442356, y: -8.881784e-18, z: 0.09407997}
+      rotation: {x: -0.000012552592, y: 0.080245785, z: -0.00015644151, w: 0.99677515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_bigToe_mid
+      parentName: L_bigToe_start
+      position: {x: -0.1499271, y: 0.03903966, z: 0}
+      rotation: {x: -2.263926e-20, y: -8.7067674e-20, z: 0.00034824957, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_bigToe_end
+      parentName: L_bigToe_mid
+      position: {x: -0.122956425, y: -0.03903966, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_hip
+      parentName: root
+      position: {x: 0.043578967, y: 0.18330999, z: 0.015671466}
+      rotation: {x: -0.13472427, y: -0.15234883, z: 0.9709029, w: 0.12643869}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_knee
+      parentName: R_hip
+      position: {x: -0.42408, y: -0.18902141, z: -0.060373187}
+      rotation: {x: -0.011023245, y: -0.40327415, z: 0.18894541, w: 0.8952922}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_ankle
+      parentName: R_knee
+      position: {x: -0.43924618, y: 0.18328305, z: 0.06261589}
+      rotation: {x: 0.015336696, y: 0.6314048, z: -0.122607626, w: 0.7655456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_ballOfFoot
+      parentName: R_ankle
+      position: {x: -0.13432695, y: -0.05529418, z: -0.063382514}
+      rotation: {x: 0.6662021, y: 0.37085772, z: -0.13250153, w: 0.633311}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_midToe_start
+      parentName: R_ballOfFoot
+      position: {x: -0.05980322, y: 0.0000000071315767, z: 0.009755313}
+      rotation: {x: 0.00000019962276, y: 0.000000040890445, z: 0.0000008623711, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_midToe_mid
+      parentName: R_midToe_start
+      position: {x: -0.1479716, y: 0.039039742, z: 0.024135387}
+      rotation: {x: -0.00000030388853, y: -0.000000086313314, z: -0.0000020223858,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_midToe_end
+      parentName: R_midToe_mid
+      position: {x: -0.121352725, y: -0.039039765, z: 0.019794574}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_pinkyToe_start
+      parentName: R_ballOfFoot
+      position: {x: -0.046273563, y: -0.00000009542013, z: 0.09270263}
+      rotation: {x: 0.00000044466935, y: -0.12407161, z: 0.0000005321862, w: 0.9922733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_pinkyToe_mid
+      parentName: R_pinkyToe_start
+      position: {x: -0.11850954, y: 0.039039835, z: 0.09183464}
+      rotation: {x: -0.0000009557856, y: -0.00000021478084, z: -0.0000012712675, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_pinkyToe_end
+      parentName: R_pinkyToe_mid
+      position: {x: -0.09719074, y: -0.039039772, z: 0.075314514}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_bigToe_start
+      parentName: R_ballOfFoot
+      position: {x: -0.07872849, y: 0.000000010438772, z: -0.08248161}
+      rotation: {x: -0.000000018448763, y: 0.080241755, z: 0.0000008234538, w: 0.99677545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_bigToe_mid
+      parentName: R_bigToe_start
+      position: {x: -0.14802104, y: 0.039039742, z: -0.023830261}
+      rotation: {x: 0.00000028240305, y: 0.00000008027525, z: -0.0000018856381, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_bigToe_end
+      parentName: R_bigToe_mid
+      position: {x: -0.12139295, y: -0.039039765, z: -0.019543814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 375dc91f780bbad4db65b405bf81b23b,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

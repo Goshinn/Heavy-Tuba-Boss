@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Game/Scenes/00_StartScreen.unity
+    guid: fe1e16cdcb0cdd84e98072abc19411e5
+  - enabled: 1
+    path: Assets/_Game/Scenes/01_HeavyTubaGunnerBossLevel.unity
+    guid: 6b7265daf9e54f848accc9f6dbd295f2
+  - enabled: 0
+    path: Assets/_Game/Scenes/HeavyTubaGunner_BossFight_Prototype.unity
+    guid: 5455f257e0da02f419ffbccf1e757781
+  m_configObjects: {}

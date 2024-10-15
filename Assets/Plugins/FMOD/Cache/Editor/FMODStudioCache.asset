@@ -1,0 +1,2437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9206545136272394632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-9141294538358868133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/DeathGrunt
+  m_EditorClassIdentifier: 
+  Path: event:/Player/DeathGrunt
+  guid: 0778b0544d09fb4ebbc2b38a872a883a
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4086
+--- !u!114 &-9106817351683697295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637321700231234968
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8836579470830073270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637322402774595307
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8808961338084158124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637309389237310075
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8592081316290937407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/LightAttack/LightAttack04
+  m_EditorClassIdentifier: 
+  Path: event:/Player/LightAttack/LightAttack04
+  guid: d7c7a01c1769a64dba4387e0ff2a6cf7
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 814
+--- !u!114 &-8521903220097034680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/PlayerHit Impact/PlayerHit_Blunt
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/PlayerHit Impact/PlayerHit_Blunt
+  guid: b3945cef36ed974084c92a0da75d2533
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 786
+--- !u!114 &-8248747094071607309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637333556371971169
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8196248413300534884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637321648546996712
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8162116318261583417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637309367889030357
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7904501259073803851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BossTheme_HeavyTubaGunner
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BossTheme_HeavyTubaGunner
+  guid: 0d002b940ecd844abaa4eab40bd68df3
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7575622479208233988}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 73613
+--- !u!114 &-7865028252563822160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-7858418832413096001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637338956221335862
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-7399430825866822635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/Block Break/BlockBroken_Blunt
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/Block Break/BlockBroken_Blunt
+  guid: e5ea4d33ab63c94cac4989acc19c1510
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1483
+--- !u!114 &-7358615277572456246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/Attack01_TubaSwing
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/Attack01_TubaSwing
+  guid: 46f7b710e21de14288562e4484e17b1d
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-7292504276830195632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637321649663411827
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7075315443060001794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637310369378219886
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6960715166555019121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-6515862406819156381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6389646777385542716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-5998683910259040791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/HTG_04
+  m_EditorClassIdentifier: 
+  Path: event:/Cutscenes/HTG_04
+  guid: 681cc08f7cf77449a52ba56e1abbae00
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2507
+--- !u!114 &-5830132064283070668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps/PlayerFootstep2D
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps/PlayerFootstep2D
+  guid: 75719f3bf66d9f44b5aa4b1d9a19972c
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1086
+--- !u!114 &-5303276585334413148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-5058803232292546185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637309368862017455
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4971651329917183585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637308690289653097
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4877420073650914996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4637149776356009923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637310400902260388
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4357133929068122811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637308665849984854
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4277174958236792369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/LightAttack/LightAttack02
+  m_EditorClassIdentifier: 
+  Path: event:/Player/LightAttack/LightAttack02
+  guid: d733707987157b43abefe398bd83c4ab
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 845
+--- !u!114 &-3877820603492590775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637309361746346716
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3673340952132154049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-3574168635640241095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/Attack03_TubaSwing
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/Attack03_TubaSwing
+  guid: 46f7b710e21de14288562e4484e17b1d
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-3352184810290195212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/Attack01_HornBlast
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/Attack01_HornBlast
+  guid: 0f42fbae85b23348892b5719c98e7f42
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 400
+  Length: 190
+--- !u!114 &-3338251594811259943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/Vocal/PlayerDeath
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/Vocal/PlayerDeath
+  guid: 2c8cbd15f426c34ca9a5eb719dc6c00b
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2037
+--- !u!114 &-3201491225226729233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637308436211596902
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3079197577275644044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
+--- !u!114 &-3048882476526239452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637310399362467174
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2936582582390336763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/LightAttack/LightAttack03
+  m_EditorClassIdentifier: 
+  Path: event:/Player/LightAttack/LightAttack03
+  guid: ad202701f8ae5340a764994f7d9f6e1f
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 711
+--- !u!114 &-2526790896409376772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637323881251993413
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2498060911404112377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-2430878834917536022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637322464952367178
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2218958682465163149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-2131241266310286621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637310398601211299
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1871605911368019585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-1841188861275912944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/Attack03_TubaSwing_Grunt
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/Attack03_TubaSwing_Grunt
+  guid: a5584839eff9284b83a2e02ff948fb4b
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 757
+--- !u!114 &-1124237563743167610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637322471506696027
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1060632830334148140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/PlayerHit Impact/PlayerHit_Projectile
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/PlayerHit Impact/PlayerHit_Projectile
+  guid: 9ca4198673353840bd44f04d9cd948e5
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 786
+--- !u!114 &-921978567141049618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-676282676921282580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/Weapon Hit/BladeHit
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/Weapon Hit/BladeHit
+  guid: 413b7a790df710469fb014510adbc265
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 692
+--- !u!114 &-574124549310705816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-429734271915598022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/DeathGrunt
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/DeathGrunt
+  guid: cb210f0a93320e4e96812ce67e906a48
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-371256062353944942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637321699949344149
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-295875224557491700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637308722780940853
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-41629023238869429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637321644181863618
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 8357311316331308038}
+  - {fileID: -7858418832413096001}
+  EditorEvents:
+  - {fileID: 8524494089191530186}
+  - {fileID: 2382431933286282396}
+  - {fileID: -2936582582390336763}
+  - {fileID: 5414244993706188168}
+  - {fileID: -4277174958236792369}
+  - {fileID: -8592081316290937407}
+  - {fileID: 8050592240297996667}
+  - {fileID: -676282676921282580}
+  - {fileID: -5830132064283070668}
+  - {fileID: -7399430825866822635}
+  - {fileID: 380872209272691395}
+  - {fileID: -3352184810290195212}
+  - {fileID: 6680442380348892528}
+  - {fileID: -3574168635640241095}
+  - {fileID: -7904501259073803851}
+  - {fileID: -8521903220097034680}
+  - {fileID: 5054212116124879344}
+  - {fileID: 2269721582438307722}
+  - {fileID: -1060632830334148140}
+  - {fileID: -3338251594811259943}
+  - {fileID: 4235279045466237291}
+  - {fileID: -1841188861275912944}
+  - {fileID: -429734271915598022}
+  - {fileID: 1355056143530016365}
+  - {fileID: 8168259445093758625}
+  - {fileID: 849034709060943210}
+  - {fileID: 5509434415962211066}
+  - {fileID: 1269505322971353861}
+  - {fileID: -5998683910259040791}
+  - {fileID: 1357843228093482203}
+  - {fileID: 8391119710363277490}
+  - {fileID: 4141189804325257718}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -7858418832413096001}
+  StringsBanks:
+  - {fileID: 8357311316331308038}
+  stringsBankWriteTime: 637338956221425961
+  cacheVersion: 3
+--- !u!114 &380872209272691395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Footsteps/HTGFootstep
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Footsteps/HTGFootstep
+  guid: bb145190fa3c5f45b6497a08a89877ee
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 25
+  Length: 1086
+--- !u!114 &849034709060943210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/HTG_06
+  m_EditorClassIdentifier: 
+  Path: event:/Cutscenes/HTG_06
+  guid: 495373104242234ab574605632c70a2f
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1332
+--- !u!114 &934156543626526236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &1045346205632847992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637310405952601016
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1098958826877618234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637308668266218993
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1269505322971353861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/HTG_03
+  m_EditorClassIdentifier: 
+  Path: event:/Cutscenes/HTG_03
+  guid: 66e424ba4288e14cb816d2bfd6f00332
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1097
+--- !u!114 &1294675233698887801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &1355056143530016365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Death_Thump
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Death_Thump
+  guid: 25645e4ca240334f963cfd6aff750d49
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 760
+--- !u!114 &1357843228093482203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/HTG_07
+  m_EditorClassIdentifier: 
+  Path: event:/Cutscenes/HTG_07
+  guid: 77156799c51c424d86a44d0d515a89c0
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10135
+--- !u!114 &1365909466445575448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637307798555394997
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1635856866776634319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/HornBlast
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/HornBlast
+  guid: 0f42fbae85b23348892b5719c98e7f42
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 190
+--- !u!114 &1859831154957626870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &1969418353962462218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps/PlayerFootstep
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps/PlayerFootstep
+  guid: e34b0375107d0149bdd8c696fa4077e4
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1086
+--- !u!114 &2036074519910001952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637309358976671400
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2065047684087575593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &2165530343289193658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637310397816282562
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2269721582438307722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/PlayerHit Impact/PlayerHit_Bladed
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/PlayerHit Impact/PlayerHit_Bladed
+  guid: 54498b26c3680348b08e8e25065c5733
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2382431933286282396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/Shield Blocks/ShieldBlock_Blunt
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/Shield Blocks/ShieldBlock_Blunt
+  guid: a329823709709c49a9b223bf66eb6afc
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1483
+--- !u!114 &2607140281425288182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637308504450944616
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2921152627545441673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/Block Break/BlockBreak_Blunt
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/Block Break/BlockBreak_Blunt
+  guid: 71a054740fedd34d95f79328e18ac345
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1483
+--- !u!114 &3216823132369171715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &3335604134485906038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637322469419695605
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3411774335090887325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &3473870813227752817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637333560672448858
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3667949054008992044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/LightAttack/LightAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Player/LightAttack/LightAttack
+  guid: b18c6c59ad1133428109e1016ec08f84
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3079197577275644044}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3942720519850561052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &3999616957082670358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &4141189804325257718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/CrowdControlEntered
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/CrowdControlEntered
+  guid: 57363d110c4c8d499e6725ac214a696b
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 940
+--- !u!114 &4235279045466237291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/Attack02_TubaCharge_Grunt
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/Attack02_TubaCharge_Grunt
+  guid: a50a0f9291bd0d4893b4e37dbe479339
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 757
+--- !u!114 &4265296597125438838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637309388631887662
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4355283700648673221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637322442286742424
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4418586019820654783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &4976220402982082481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps/PlayerFoostep2D
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps/PlayerFoostep2D
+  guid: 75719f3bf66d9f44b5aa4b1d9a19972c
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1086
+--- !u!114 &5054212116124879344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/Vocal/PlayerHit_Grunt
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/Vocal/PlayerHit_Grunt
+  guid: bc23264c84c62d428079abf4fbb180d6
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 522
+--- !u!114 &5105765542539403267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5267716695547504346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &5377872125811076749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/TubaSwing
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/TubaSwing
+  guid: 46f7b710e21de14288562e4484e17b1d
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &5412947502901199910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5414244993706188168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/LightAttack/LightAttack01
+  m_EditorClassIdentifier: 
+  Path: event:/Player/LightAttack/LightAttack01
+  guid: bccc1a28fdcab54f89ec17de3451e2a9
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 739
+--- !u!114 &5466650311949930825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5509434415962211066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/HTG_01
+  m_EditorClassIdentifier: 
+  Path: event:/Cutscenes/HTG_01
+  guid: 62cce4d387c5d0419fe3fc8177d0f30e
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4388
+--- !u!114 &5534578188567906093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/Attack03_TubaCharge_Swing
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/Attack03_TubaCharge_Swing
+  guid: 462b1fa742c7e24aa30d28b2789d5fb8
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 601
+--- !u!114 &5553323265129299522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637323137596988534
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5767089546361062868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &6320556756119170494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637309354419972901
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6421904738359338032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &6447960306148486299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637328540783131196
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6680442380348892528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/Attack02_TubaCharge_Swing
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/Attack02_TubaCharge_Swing
+  guid: 462b1fa742c7e24aa30d28b2789d5fb8
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 601
+--- !u!114 &6931412182711957069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637321698223764677
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6938678238689743542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637320095936082713
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7210857930302193505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeavyTubaGunner/Attacks/TubaCharge_Swing
+  m_EditorClassIdentifier: 
+  Path: event:/HeavyTubaGunner/Attacks/TubaCharge_Swing
+  guid: 462b1fa742c7e24aa30d28b2789d5fb8
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 601
+--- !u!114 &7258035630998097211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LightAttack/ComboChain
+  m_EditorClassIdentifier: 
+  Name: ComboChain
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &7382845323594616809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7493346244637846008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637322398972917960
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7550645086022753745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7575622479208233988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &7770356305016262972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7862982296560676900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637308505474490516
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7902987483469960348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8050592240297996667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/Block Break/BlockBroken_Projectile
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/Block Break/BlockBroken_Projectile
+  guid: dee4d8f253688542b1423c78f8cbab21
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1030
+--- !u!114 &8069568782118707104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8168259445093758625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/HTG_02
+  m_EditorClassIdentifier: 
+  Path: event:/Cutscenes/HTG_02
+  guid: 165c7b9bfaf3a7438a4d4f4080eaadc2
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 13583
+--- !u!114 &8357311316331308038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637338956221425961
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2434
+  Exists: 1
+--- !u!114 &8391119710363277490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/HTG_05
+  m_EditorClassIdentifier: 
+  Path: event:/Cutscenes/HTG_05
+  guid: e5964d312eaea945810b1cf7b8497732
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 862
+--- !u!114 &8524494089191530186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feedback sounds/Shield Blocks/ShieldBlock_Projectile
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feedback sounds/Shield Blocks/ShieldBlock_Projectile
+  guid: 3eb56af095efb0488a96c44310bcebd9
+  Banks:
+  - {fileID: -7858418832413096001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1030
+--- !u!114 &8657447873303916608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637321640069895463
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8922869693544379539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: HeavyTubaBoss/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637308686982189415
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &9156526578051470562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &9220413341359630013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossTheme_HeavyTubaGunner/BossIsDead
+  m_EditorClassIdentifier: 
+  Name: BossIsDead
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
